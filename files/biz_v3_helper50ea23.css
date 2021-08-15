@@ -1,0 +1,599 @@
+.screen_1920 .button_gray,
+.screen_1920 .button_blue,
+.screen_1920 .button_red,
+.screen_1920 .button_green{font-size: 14px;}
+.screen_1920 .button_middleSize{font-size: 16px;}
+.screen_1920 .button_largeSize{font-size: 18px;}
+.screen_1920 .table_block{font-size: 14px;}
+.screen_1920 .input_style{font-size: 16px;}
+.screen_1920 .message_warning{font-size: 14px;}
+.tipsWrap{width: 100%;color:#fff;text-align:center;position:fixed;_position:absolute;z-index: 10000;}
+.tipsWrap.topPos{top:60px;}
+.tipsWrap.tipsCenter{top:60px;}
+.tipsWrap .msg{background-color:#68AF02;-moz-border-radius:3px;border-radius:3px;-webkit-border-radius:3px;white-space: nowrap;padding: 3px 20px;font-size: 12px;}
+.tipsCenter .msg{
+    font-size: 13px;
+    padding: 6px 20px;
+    line-height: 18px;
+    border-radius: 0;
+    display: inline-block;
+    background-color: #68AF02;
+    color: #fff;
+}
+.size14{font-size: 14px;}
+.screen_1920 .search_result li{min-height: 230px;}
+.screen_1920 .search_result li.type_1{min-height: 230px;}
+.screen_1920 .search_result li.type_2{min-height: 190px;}
+.screen_1920 .search_result li p{line-height: 2;font-size: 16px;}
+.screen_1920 .search_result li .avator{margin-top: 32px;}
+.search_result{border-radius: 2px;overflow: hidden;margin-top: 30px;}
+.search_result li.type_1{min-height: 200px;}
+.search_result li.type_2{min-height: 130px;}
+.search_result li{min-height: 230px;border-bottom: 1px solid #d7e1e5;position: relative;}
+.search_result li.last{border-bottom: none;}
+.search_result .icons_dealerSearch{float: left;margin: 40px 56px 0 50px;}
+.search_result .icons_dealerSearchPerson{float: left;margin: 40px 56px 0 50px;}
+.search_result li p{font-size: 14px;color: #505558;}
+.search_result li p span.detail_title{display:inline-block;width: 100px;vertical-align: top;}
+.search_result li p span.detail_content{display:inline-block;white-space: pre-line;width: 480px;}
+.search_result li .detail{margin-left: 138px;padding-top: 25px;text-align: left;}
+.search_result li .avator{float: left;margin-right: 20px;border: 5px solid #d7e1e5;display: block;margin-top: 16px;}
+.icons_dealerSearch{background: url(../images/bizmail/v3/icons_dealerSearch1ca3fe.png) 0 0 no-repeat;display: inline-block;width: 32px;height: 32px;}
+.icons_dealerSearchPerson{background: url(../images/bizmail/v3/icons_dealerSearch1ca3fe.png) -32px 0 no-repeat;display: inline-block;width: 32px;height: 32px;}
+.add_result{font-size: 16px;padding: 120px 0 180px;text-align: center;}
+.dialog{z-index: 2001; position: fixed; left: 50%; margin-left: -170px;}
+.new_index_dlg_fix .dialog{top: 160px;}
+
+.dialog .dlg_header{
+    background: #FFF;
+    padding: 30px 38px 0;
+    border-radius: 4px 4px 0 0;
+}
+.dialog .dlg_header .btn_close{
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    width: 18px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 3px 0 4px 0;
+}
+.dialog .dlg_header .btn_close:hover{opacity: 0.8;}
+.dialog .dlg_content{background: #FFF; padding: 51px 28px; color: #4B4B4B;}
+.dialog .dlg_content .icon_info{float: left; overflow: hidden; margin-right: 8px;}
+.dialog .dlg_footer{background: #FFF; padding: 12px 14px; text-align: right;}
+.dialog .dlg_footer .btn_confirm{text-decoration:none; color: #FFF; font-size: 12px; display: inline-block; width: 66px; background: #4096E5; text-align: center; line-height: 26px; border: #2B7DC8 1px solid; border-radius: 1px;}
+.dialog .dlg_footer .btn_confirm:hover{background: #6DB0FF; border: #5FA7FA 1px solid;}
+.dialog .dlg_footer .btn_cancel{text-decoration:none; color: #828282; font-size: 12px; display: inline-block; width: 66px; background: #FAFAFA; text-align: center; line-height: 26px; border: #BFBABA 1px solid; }
+.dialog .dlg_footer .btn_cancel:hover{background: #F7F7F7; border: #B7B7B7 1px solid;}
+
+.contract_container{font-size: 16px; color: #005ead; margin-left: 109px; margin-top: 30px;}
+.contract_container .phone{color: #D09725; font-size: 20px;}
+.contract_container .qq_btn{background-color: #fff;height: 28px;line-height: 28px;color: #005ead;border: 1px solid #1D93E2; margin-top: -3px;}
+.contract_container .qq_btn:hover{text-decoration: none;}
+.contract_container .qq_icon{display: inline-block; vertical-align: middle; position: relative; top: 2px; background:url(../images/icon_qq_24x24275c4f.jpg) 0 0 no-repeat;  }
+.icons_sns{background: url(../images/bizmail/v3/icons_sns1d187f.png) 0 0 no-repeat;width: 32px;height: 32px;}
+.button_gray,.button_blue,.button_red,.button_green,.button_yellow{display: inline-block;height: 24px;line-height: 24px;padding: 0 15px;margin: 0;vertical-align: middle;text-align: center;border-radius: 2px;border-radius: 0\9;cursor: pointer;_line-height: 20px;_height: 20px;_padding-top: 4px;background-image: none;text-shadow: none;box-shadow:none;border: none;}
+.button_middleSize{height: 42px;line-height: 42px;font-size: 16px;padding: 0 20px;filter:none;}
+.bom_10{margin-bottom: 10px;}
+
+.btn_gray{border:1px solid #888; color:#000000; color:#000000!important;
+background: #F3F3F3;
+background: -moz-linear-gradient(top, #ffffff 0%, #ebebeb 90%, #F3F3F3 100%);
+background: -webkit-linear-gradient(top, #ffffff 0%, #ebebeb 90%, #F3F3F3 100%);
+background: -o-linear-gradient(top, #ffffff 0%, #ebebeb 90%, #F3F3F3 100%);
+background: -ms-linear-gradient(top, #ffffff 0%, #ebebeb 90%, #F3F3F3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 );
+background: linear-gradient(top, #ffffff 0%, #ebebeb 90%, #F3F3F3 100%);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#d2d2d2'); 
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#d2d2d2')";}
+border-radius:4px;border-radius:0\9;box-shadow:0 1px 1px rgba(172,192,218,.7);
+}
+.btn_gray:active,.btn_gray_active{border-color:#7e7e7e;
+background: #F3F3F3;
+background: -moz-linear-gradient(top, #ebebeb, #F3F3F3);
+background: -webkit-linear-gradient(top, #ebebeb, #F3F3F3);
+background: -o-linear-gradient(top, #ebebeb, #F3F3F3);
+background: -ms-linear-gradient(top, #ebebeb, #F3F3F3);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebebeb', endColorstr='#F3F3F3',GradientType=0 );
+background: linear-gradient(top, #ebebeb, #F3F3F3);
+border-radius:4px;border-radius:0\9;box-shadow:0 1px 1px rgba(172,192,218,.7);
+}
+.dialog .login_content{
+	background: #FFF;
+    min-height: 400px;
+    border-radius: 0 0 4px 4px;
+}
+.dialog .login_content .login_tabs{
+	font-size: 18px;
+    line-height: 50px;
+	text-align: center;
+}
+.dialog .login_content .login_tabs a{
+	color: #000;
+    display: block;
+	cursor: default;
+	text-decoration: none;
+}
+.dialog .login_content .login_tabs .left_tab{
+	float: left;
+	width: 50%;
+	border-right: 1px solid #D8D8D8;
+}
+.dialog .login_content .login_tabs .right_tab{
+	overflow: hidden;
+}
+.dialog .login_content .login_tabs .unselected{
+	background: #F9F9F9;
+	color: #AAAAAA;
+	border-bottom: 1px solid #D8D8D8;
+    cursor: pointer;
+}
+
+.dialog .login_content .items {
+	padding: 30px 40px 40px;
+	font-size: 14px;
+}
+.dialog .login_content .items .item{
+	margin-bottom: 28px;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #C9C9C9;
+}
+
+.dialog .login_content .items .item.errorInput {
+    border-color: #F15A5A;
+}
+
+.dialog .login_content .items .item .img_vc{
+	width: 102px;
+	height: 46px;
+	float: right;
+}
+	
+.dialog .login_content .items .item input.dlg_input{
+	box-sizing: content-box;
+    height: 46px;
+    line-height: 26px;
+	padding: 0 10px;
+    width: 256px;
+    color: #000;
+    border: 0 none;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.dialog .login_content .items .item .input_l.dlg_input{
+	width: 140px;
+}
+
+.dialog .login_content .items .item input.dlg_input.dlg_input_with_countryCode {
+    width: 148px;
+    position: relative;
+    left: -1px;
+    border-radius: 2px;
+}
+
+.dialog .login_content .items .err {
+    position: absolute;
+    color: #F15A5A;
+    font-size: 12px;
+    top: 51px;
+    left: 0;
+}
+
+.dialog .login_content .check_eula .err {
+    position: absolute;
+    color: #F15A5A;
+    font-size: 12px;
+    top: 19px;
+    left: 0;
+}
+
+.dialog .login_content .items .item .err_for_chkb{
+    top: 69px;
+    left: 0;
+}
+
+.dialog .login_content .items .item .btn_gray{
+	font-size: 12px;
+    color: #535353;
+    background: #FAFAFC;
+    width: 100px;
+    height: 38px;
+    box-sizing: content-box;
+    display: inline-block;
+    line-height: 38px;
+    text-align: center;
+    float: right;
+	text-decoration: none;
+	border: 1px solid #BBBBBC;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.dialog .login_content .items .btn_blue{
+	font-size: 16px;
+    color: #FFF;
+    background: #4490D6;
+    width: 100%;
+    height: 38px;
+    box-sizing: content-box;
+    display: inline-block;
+    line-height: 36px;
+    text-align: center;
+	text-decoration: none;
+	border: 1px solid #107FCD;
+	cursor: pointer;
+}
+.dialog .login_content .items .check_eula{
+	color: #2B2B2B;
+	font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.dialog .login_content .items .chkb{
+	width: 14px;
+    height: 14px;
+    float: left;
+    margin: 2px 10px 0 0;
+}
+.isWin .dialog .login_content .items .chkb{
+    margin: 2px 3px 0;
+}
+@media screen and (min-width:0\0) {  
+    .isWin .dialog .login_content .items .chkb{
+        margin: 0px;
+    }
+}
+/* @media all and (min-width: 0\0) and (min-resolution: 0.001dpcm) {
+    .isWin .dialog .login_content .items .chkb{
+        margin-top: -3px;
+    }
+} */
+.dialog .login_content .items .input_tip {
+	display: none;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #AAAAAA;
+    z-index: 10;
+}
+
+.mask{
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    z-index: 2000;
+}
+.onlinesell_commonImg {
+  display: inline-block;
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-image: url('../images/onlinesell_icons2a7a85.png');
+  background-size: 674px 149px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx), only screen and (min-resolution: 192dpi) {
+  /* line 29, ../../sass/images.scss */
+  .onlinesell_commonImg {
+    background-image: url('../images/onlinesell_icons_2x2a7a85.png');
+  }
+}
+.onlinesell_commonImg_icon_close {
+  background-position: 0 -60px;
+  height: 12px;
+  width: 12px;
+}
+.dealer_form,.dealer_form_suc{overflow: hidden;}
+.dealer_form .form_block{padding: 20px 40px;}
+.dealer_form_suc{height: 400px;}
+.dealer_form_suc .icon_succeed{float: left;margin: 8px 20px 0 45px;}
+.dealer_form_suc .text{font-size: 16px;margin-bottom: 20px;}
+.icons_status{background: url(../images/bizmail/v3/icons_status1ca3fe.png) 0 0 no-repeat;display: inline-block;}
+.icon_succeed{background-position: 0 0;width: 40px;height: 40px;}
+
+.banner_dealer .rslides_tabs{width: 60px;}
+
+.banner_cooperation_sx {
+    background-image: url("../images/sass/independent/index/banner/banner_cooperation_sx_s3bcbcb.png");
+    background-repeat: no-repeat;
+    background-size: 1440px 340px;
+    background-position: 50% 50%;
+    height: 340px;
+    min-width: 990px
+}
+.screen_1920 .banner_cooperation_sx {
+    background-image: url("../images/sass/independent/index/banner/banner_cooperation_sx_l3bcbcb.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 340px;
+    background-position: 50% 50%;
+    height: 340px;
+    min-width: 990px
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2),(min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi) {
+    .banner_cooperation_sx {
+        background-image:url("../images/sass/independent/index/banner_2x/banner_cooperation_sx_s3bcbcb.png");
+    }
+    .screen_1920 .banner_cooperation_sx {
+        background-image:url("../images/sass/independent/index/banner_2x/banner_cooperation_sx_l3bcbcb.png");
+    }
+}
+
+.qui_inputText {
+	display: block;
+    width: 240px;
+    line-height: 18px;
+    padding: 3px 6px;
+    background: #FFF;
+    border: 1px solid #C7C7C7;
+    border-radius: 2px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.qy_telInput_zipCode_input {
+	width: 80px;
+    position: relative;
+}
+
+.dialog .qy_telInput_zipCode_input .qy_inputText {
+    height: 36px;
+    border: 0 none;
+}
+
+.qy_telInput_zipCode_input .qy_inputText {
+	height: 18px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.qy_telInput_zipCode_input .qy_inputText_Big {
+	color: #000;
+    border: 1px solid #C7C7C7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    padding-left: 20px;
+    width: 40px;
+    padding-right: 21px;
+}
+
+.qy_inputText_Big {
+	width: 252px;
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+.dialog .qy_telInput_zipCode_input:before {
+    top: 5px;
+}
+
+.qy_telInput_zipCode_input:before {
+    z-index: 5;
+	line-height: 30px;
+	content: "+";
+    position: absolute;
+    left: 8px;
+    top: 0;
+    font-size: 12px;
+    color: #000;
+}
+
+.new_index_dlg .login_scan_panel {
+    box-shadow: none;
+}
+
+.new_index_dlg .qy_telInput_zipCode_input:before {
+    line-height: 38px;
+}
+
+.new_index_dlg .login_scan_panel .header_nav {
+    padding-top: 0;
+}
+
+.qy_telInput_zipCode_input_arrowWrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 21px;
+    z-index: 4;
+}
+
+.dialog .qy_telInput_zipCode_input_arrowWrap_icon {
+    top: 20px;
+}
+
+.qy_telInput_zipCode_input_arrowWrap_icon {
+	display: block;
+    content: " ";
+    width: 0;
+    line-height: 0;
+    font-size: 0;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.qy_telInput_zipCode_input_arrowWrap_icon {
+    border-width: 7px 4px;
+    border-bottom: 0;
+    border-top-color: #9399A1;
+    position: absolute;
+    top: 12px;
+    right: 6px;
+}
+
+.singup_item_countryCode {
+    float: left;
+}
+
+.new_index_dlg .singup_item_countryCode {
+    margin-right: 5px;
+}
+
+.signup_item_mobile {
+	float: left;
+	position: relative;
+	left: -1px;
+}
+
+.signup_item_mobile .signup_item_input{
+	width: 300px;
+}
+
+.qy_dropdownMenu {
+    top: 32px;
+    font-size: 12px;
+}
+
+.qy_telInput_zipCode .qy_dropdownMenu, .qy_telInput_zipCode .smart_menu_box {
+    display: none;
+    max-height: 260px;
+    overflow: auto;
+    top: 29px;
+}
+
+.qui_dropdownMenu_itemLink, .smart_menu_a {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    color: #000;
+}
+
+.qy_dropdownMenu_itemLink, .smart_menu_a {
+    font-size: 12px;
+}
+
+.qy_dropdownMenu_item .qy_dropdownMenu_itemLink, .qy_dropdownMenu_item .smart_menu_a {
+    font-size: 12px;
+}
+
+.qy_btnWithMenu .qy_dropdownMenu_itemLink, .qy_btnWithMenu .smart_menu_a {
+    white-space: nowrap;
+}
+
+.qy_telInput_zipCode .qy_dropdownMenu_itemLink, .qy_telInput_zipCode .smart_menu_a {
+    white-space: nowrap;
+}
+
+.new_index_dlg .qy_btnWithMenu .qy_dropdownMenu {
+    top: 46px;
+}
+
+.qy_btnWithMenu .qy_dropdownMenu, .qy_btnWithMenu .smart_menu_box {
+    display: none;
+    position: absolute;
+    min-width: 101px;
+    top: 31px;
+}
+
+.qy_dropdownMenu_item {
+    text-align: left;
+}
+
+.qui_dropdownMenu, .smart_menu_box {
+    position: absolute;
+    z-index: 30;
+    background: #FFF;
+    border: none;
+    padding: 2px 0;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.qy_dropdownMenu_item_Hover .qy_dropdownMenu_itemLink, .qy_dropdownMenu_item_Hover .smart_menu_a, .smart_menu_a:hover {
+    background: #2984EF;
+    text-decoration: none;
+    color: #fff;
+}
+
+.qy_dropdownMenu_itemLink .qy_commonImg {
+    visibility: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.qy_dropdownMenu_item_Curr .qy_dropdownMenu_itemLink .qy_commonImg {
+    visibility: visible;
+}
+
+.qy_commonImg_TimePickerChecked {
+    background-image: url(../images/bizmail/manage/selected_2x474287.png);
+    background-size: 10px 8px;
+	width: 10px;
+    height: 8px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.qy_dropdownMenu_item_Hover .qy_dropdownMenu_itemLink .qy_commonImg_TimePickerChecked{
+    background-image: url(../images/bizmail/manage/selected_white_2x474287.png);
+    background-size: 10px 8px;
+	width: 10px;
+    height: 8px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.qy_dropdownMenu_itemLink_text{
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.dlg_header label {
+    font-size: 20px;
+    color: #2B2B2B;
+}
+
+.order_dialog .phone_num_split_line {
+    width: 1px;
+    height: 16px;
+    background: #D8DFE5;
+    position: absolute;
+    top: 50%;
+    left: 83px;
+    margin-top: -7px;
+}
+
+.verify_btn {
+    font-size: 14px;
+    color: #186FD5;
+    cursor: pointer;
+}
+
+.verify_btn.disabled {
+    color: #AAAAAA;
+    cursor: default;
+}
+
+.verify_btn:hover {
+    text-decoration: none;
+}
+
+.login_content .qy_index_btn_Large {
+    width: 232px;
+}
+
+.dialog.new_index_dlg {
+    left: 50%;
+    margin-left: -170px;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill { 
+    box-shadow: 0 0 0 1000px white inset; 
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+    box-shadow: 0 0 0 1000px white inset; 
+}
